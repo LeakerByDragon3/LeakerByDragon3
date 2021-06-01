@@ -37,7 +37,7 @@ intro = Fore.LIGHTGREEN_EX + """
 
 print(intro)
 
-response = requests.get("https://benbotfn.tk/api/v1/status")
+response = requests.get("https://benbot.app/api/v1/status")
 patch = response.json()["currentFortniteVersion"]
 
 print(f'Fortnite Lobby Bot Is Loading....')
